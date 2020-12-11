@@ -1,0 +1,34 @@
+.login {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.loginCard {
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginCard>input {
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+.loginCard>div {
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+}
+
+.loginCard>span {
+    font-size: 14px;
+    font-weight: bold;
+}
